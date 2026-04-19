@@ -11,4 +11,7 @@ Prompts 4
 aumenta el tamaño del texto paul veloz.
 
 Prompts 5
-coloca el mismo estilo de los botones explorar modulo en el boton explorar modulo del juego limon
+coloca el mismo estilo de los botones explorar modulo en el boton explorar modulo del juego limon.
+
+Prompts 6
+coloca un nickname en la parte superior debajo del texto nombre, colócalo de color anaranjado, el tamaño que sea de la mitad del texto nombre.
