@@ -1,0 +1,5 @@
+Pronpts 1
+actúa como diseñador gráfico, mejora la parte visual de este ejercicio, modifica el html.
+
+Prompts 2
+mejora el estilo, darle un aspecto empresarial.
