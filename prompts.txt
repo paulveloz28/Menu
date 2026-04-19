@@ -3,3 +3,7 @@ actúa como diseñador gráfico, mejora la parte visual de este ejercicio, modif
 
 Prompts 2
 mejora el estilo, darle un aspecto empresarial.
+
+Prompts 3
+agrandale el texto portafolio de desarrollo un poco mas.
+

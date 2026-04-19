@@ -51,30 +51,34 @@
         .hero-section {
             background-color: var(--primary-navy);
             color: var(--white);
-            padding: 60px 20px;
+            padding: 80px 20px;
             text-align: center;
             border-bottom: 8px solid var(--accent-gold);
         }
 
         .hero-section h2 {
-            font-size: 1.1rem;
-            font-weight: 300;
-            letter-spacing: 2px;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 2.5rem; /* Título agrandado para impacto visual */
+            font-weight: 800;
+            letter-spacing: 4px;
             color: var(--accent-gold);
-            margin-bottom: 10px;
+            margin-bottom: 20px;
             text-transform: uppercase;
+            line-height: 1.2;
         }
 
         .hero-section p {
             font-weight: 300;
             opacity: 0.8;
-            font-size: 0.95rem;
+            font-size: 1rem;
+            max-width: 750px;
+            margin: 0 auto;
         }
 
         .container {
             max-width: 1000px;
             margin: 0 auto;
-            padding: 50px 20px;
+            padding: 60px 20px;
         }
 
         /* GRID EMPRESARIAL */
@@ -87,10 +91,12 @@
         .project-card {
             background: var(--white);
             border: 1px solid #e2e8f0;
-            border-radius: 4px; /* Bordes menos redondeados para look formal */
+            border-radius: 4px;
             padding: 40px 30px;
-            transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
-            position: relative;
+            transition: all 0.4s ease;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
         }
 
         .project-card:hover {

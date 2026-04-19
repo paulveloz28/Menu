@@ -1,0 +1,18 @@
+/* SECCIÓN DE PRESENTACIÓN */
+.hero-section {
+    background-color: var(--primary-navy);
+    color: var(--white);
+    padding: 80px 20px; /* Aumenté el padding para dar más aire */
+    text-align: center;
+    border-bottom: 8px solid var(--accent-gold);
+}
+
+.hero-section h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.2rem; /* Texto agrandado significativamente */
+    font-weight: 800;
+    letter-spacing: 4px;
+    color: var(--accent-gold);
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
