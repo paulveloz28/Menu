@@ -3,186 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Executive Portfolio | Paul Veloz</title>
+    <title>Portfolio Premium | Paul Veloz</title>
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Montserrat:wght@800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Montserrat:wght@800&display=swap" rel="stylesheet">
 
-    <style>
-        :root {
-            --primary-navy: #0a192f;   /* Azul ejecutivo profundo */
-            --accent-gold: #ffcc00;    /* Dorado corporativo */
-            --bg-canvas: #f8fafc;      /* Fondo gris neutro profesional */
-            --text-dark: #1e293b;
-            --text-light: #64748b;
-            --white: #ffffff;
-            --card-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05), 0 8px 10px -6px rgba(0, 0, 0, 0.05);
-        }
-
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-
-        body {
-            font-family: 'Inter', sans-serif;
-            background-color: var(--bg-canvas);
-            color: var(--text-dark);
-            -webkit-font-smoothing: antialiased;
-        }
-
-        /* BANNER SUPERIOR - NOMBRE IMPRENTA */
-        .identity-bar {
-            background-color: var(--white);
-            padding: 25px 0;
-            text-align: center;
-            border-top: 5px solid var(--primary-navy);
-            box-shadow: 0 2px 4px rgba(0,0,0,0.02);
-        }
-
-        .name-brand {
-            font-family: 'Montserrat', sans-serif;
-            font-weight: 800;
-            letter-spacing: 6px; /* Estilo de marca */
-            color: var(--primary-navy);
-            font-size: 1.8rem;
-            text-transform: uppercase;
-        }
-
-        /* SECCIÓN DE PRESENTACIÓN */
-        .hero-section {
-            background-color: var(--primary-navy);
-            color: var(--white);
-            padding: 80px 20px;
-            text-align: center;
-            border-bottom: 8px solid var(--accent-gold);
-        }
-
-        .hero-section h2 {
-            font-family: 'Montserrat', sans-serif;
-            font-size: 2.5rem; /* Título agrandado para impacto visual */
-            font-weight: 800;
-            letter-spacing: 4px;
-            color: var(--accent-gold);
-            margin-bottom: 20px;
-            text-transform: uppercase;
-            line-height: 1.2;
-        }
-
-        .hero-section p {
-            font-weight: 300;
-            opacity: 0.8;
-            font-size: 1rem;
-            max-width: 750px;
-            margin: 0 auto;
-        }
-
-        .container {
-            max-width: 1000px;
-            margin: 0 auto;
-            padding: 60px 20px;
-        }
-
-        /* GRID EMPRESARIAL */
-        .project-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
-            gap: 30px;
-        }
-
-        .project-card {
-            background: var(--white);
-            border: 1px solid #e2e8f0;
-            border-radius: 4px;
-            padding: 40px 30px;
-            transition: all 0.4s ease;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-        }
-
-        .project-card:hover {
-            transform: translateY(-5px);
-            box-shadow: var(--card-shadow);
-            border-color: var(--accent-gold);
-        }
-
-        .project-card h3 {
-            font-family: 'Montserrat', sans-serif;
-            color: var(--primary-navy);
-            font-size: 1.1rem;
-            margin-bottom: 15px;
-            display: flex;
-            align-items: center;
-        }
-
-        .project-card h3::before {
-            content: "";
-            width: 12px;
-            height: 2px;
-            background: var(--accent-gold);
-            margin-right: 10px;
-        }
-
-        .project-card p {
-            color: var(--text-light);
-            font-size: 0.85rem;
-            line-height: 1.6;
-            margin-bottom: 30px;
-        }
-
-        /* BOTONES EMPRESARIALES */
-        .btn-action {
-            display: inline-block;
-            width: 100%;
-            text-align: center;
-            text-decoration: none;
-            background-color: var(--primary-navy);
-            color: var(--white);
-            padding: 12px 0;
-            font-size: 0.8rem;
-            font-weight: 600;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            transition: var(--transition);
-            border: 1px solid var(--primary-navy);
-        }
-
-        .btn-action:hover {
-            background-color: var(--white);
-            color: var(--primary-navy);
-        }
-
-        .btn-limones {
-            background-color: transparent;
-            color: var(--primary-navy);
-            border: 1px solid #cbd5e1;
-        }
-
-        .btn-limones:hover {
-            border-color: var(--primary-navy);
-            background-color: var(--primary-navy);
-            color: white;
-        }
-
-        footer {
-            text-align: center;
-            padding: 40px;
-            font-size: 0.75rem;
-            color: var(--text-light);
-            letter-spacing: 1px;
-        }
-    </style>
+    <link rel="stylesheet" href="menu.css">
 </head>
 <body>
 
-    <div class="identity-bar">
-        <h1 class="name-brand">JONATHAN VELOZ</h1>
-    </div>
+    <nav class="identity-bar">
+        <h1 class="name-brand">Paul Veloz</h1>
+    </nav>
 
     <header class="hero-section">
-        <div class="container">
-            <h2>Portafolio de Desarrollo</h2>
-            <p>Especialista en interfaces interactivas y lógica de programación aplicable a soluciones digitales.</p>
-            <p style="margin-top: 15px; font-size: 0.8rem;">NICKNAME: <strong>@paulveloz28</strong></p>
+        <div class="hero-title-wrapper">
+            <img src="programador.jpg" alt="Profile Logo" class="hero-image">
+            <h2>Portafolio</h2>
+        </div>
+        <p>Desarrollo de ecosistemas digitales interactivos mediante código de alta precisión y diseño centrado en el usuario.</p>
+        <div class="academic-tag">
+            VERIFICACIÓN ACADÉMICA @PAULVELOZ28 | 2026
         </div>
     </header>
 
@@ -190,28 +32,34 @@
         <div class="project-grid">
             
             <article class="project-card">
-                <h3>Juego de Limones</h3>
-                <p>Módulo interactivo diseñado para evaluar la gestión de estados en tiempo real y la manipulación avanzada del DOM mediante eventos asíncronos.</p>
-                <a href="https://juego-limones-umber.vercel.app/" target="_blank" class="btn-action btn-limones">Ejecutar Aplicación</a>
+                <div>
+                    <h3><span>01</span> Juego Limones</h3>
+                    <p>Engine interactivo enfocado en la gestión dinámica de objetos asíncronos y arquitectura de estados del DOM.</p>
+                </div>
+                <a href="https://juego-limones-umber.vercel.app/" target="_blank" class="btn-action btn-secondary">Explorar Módulo</a>
             </article>
 
             <article class="project-card">
-                <h3>Juego Cazando</h3>
-                <p>Desarrollo enfocado en algoritmos de aleatoriedad y control de intervalos temporales, optimizando la respuesta del usuario en entornos dinámicos.</p>
-                <a href="https://juego-cazando-paulveloz.vercel.app/" target="_blank" class="btn-action">Ejecutar Aplicación</a>
+                <div>
+                    <h3><span>02</span> Juego Cazando</h3>
+                    <p>Simulador de agilidad con algoritmos de aleatoriedad controlada y optimización de latencia en la interacción.</p>
+                </div>
+                <a href="https://juego-cazando-paulveloz.vercel.app/" target="_blank" class="btn-action">Explorar Módulo</a>
             </article>
 
-            <article class="project-card" style="border-top: 4px solid var(--accent-gold);">
-                <h3>Simulador Financiero</h3>
-                <p>Herramienta técnica de cálculo de amortización y capacidad crediticia con múltiples capas de validación lógica y seguridad de datos.</p>
-                <a href="simulador.html" class="btn-action">Acceder al Sistema</a>
+            <article class="project-card destaque">
+                <div>
+                    <h3><span>03</span> Simulador</h3>
+                    <p>Herramienta financiera de alta complejidad con validación de datos por Regex y motor de cálculo de amortización.</p>
+                </div>
+                <a href="simulador.html" class="btn-action">Abrir Sistema</a>
             </article>
 
         </div>
     </main>
 
     <footer>
-        <p>&copy; 2026 PAUL VELOZ | CORPORATE DEVELOPMENT PORTFOLIO</p>
+        <p>DESIGNED BY PAUL VELOZ &bull; TECH STACK 2026 &bull; QUITO, EC</p>
     </footer>
 
 </body>
