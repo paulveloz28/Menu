@@ -7,3 +7,8 @@ mejora el estilo, darle un aspecto empresarial.
 Prompts 3
 agrandale el texto portafolio de desarrollo un poco mas.
 
+Prompts 4
+aumenta el tamaño del texto paul veloz.
+
+Prompts 5
+coloca el mismo estilo de los botones explorar modulo en el boton explorar modulo del juego limon

@@ -19,6 +19,7 @@ body {
     color: var(--text-pure);
     line-height: 1.6;
     min-height: 100vh;
+    
 }
 
 .identity-bar {
@@ -36,9 +37,14 @@ body {
 .name-brand {
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
-    letter-spacing: 8px;
-    font-size: 1.2rem;
+    letter-spacing: 10px;    /* Aumentamos un poco el espacio entre letras */
+    font-size: 2.2rem;       /* Tamaño aumentado (antes era 1.2rem) */
+    color: var(--text-pure);
     text-transform: uppercase;
+    /* Añadimos un degradado sutil para que combine con el resto del diseño */
+    background: linear-gradient(to right, #ffffff, #94a3b8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .hero-section {
